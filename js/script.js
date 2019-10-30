@@ -3,7 +3,7 @@ $( "document" ).ready(function() { //this helps your jQuery to work. Write all o
 $("button").click(function(){
 var ask = $("input").val();
 $(".output").append(ask);
-var firstcharacter = ask[0]
+
 });
 
 
